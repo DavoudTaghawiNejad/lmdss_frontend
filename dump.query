@@ -1,0 +1,7 @@
+.mode csv 
+.header on 
+.out firms.csv
+select * from firms;
+.out firm_aggregate.csv
+select * from firm_aggregate;
+.quit
