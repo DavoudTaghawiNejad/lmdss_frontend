@@ -35,7 +35,7 @@ def main(fields):
     subprocess.call(['java',
                      '-Djava.library.path=/usr/local/lib:zmq.jar',
                      '-jar',
-                     '../lmdss/lmdss.jar',
+                     'lmdss.jar',
                      't',
                      json.dumps(data)])
     subprocess.call(['sh', 'dump.sh'])
